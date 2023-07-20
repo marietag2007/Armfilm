@@ -4,11 +4,20 @@ let incorrectAnswer = 0
 function getElement(id) {
     return document.getElementById(id);
 }
+function getRandomFilm(){
+    return films [Math.floor(Math.random(films.length-1)*10)]
+}
+
+function main(){
+    film= getRandomFilm()
+    getElement("film").src = film.film;
+}
 
 function timer() {
     setTimeout(finish, seconds * 1000);
     getElement('time').innerHTML = seconds;
     let countdown = setInterval(function () {
+        main ();
         seconds--;
         getElement('time').textContent = seconds;
         if (seconds <= 0) {

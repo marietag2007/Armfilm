@@ -78,8 +78,54 @@ const films = [
     },
     {
         "film": "./films/yerjankutyanmexanikan.jpg",
-        "name": ""
+        "name": "Երջանկության մեխանիկա"
     },
-
-    
+    {
+        "film": "./films/mimino.jpg",
+        "name": "Միմինո"
+    },
+    {
+        "film": "./films/vorogayt.jpg",
+        "name": "Որոգայթ"
+    },
+    {
+        "film": "./films/koracmolorvacyhayastanum.jpg",
+        "name": "Կորած մոլորվածը Հայաստանում"
+    },
+    {
+        "film": "./films/menqenqmersarery.jpg",
+        "name": "Մենք ենք, մեր սարերը"
+    },
+    {
+        "film": "./films/voskeclik.jpg",
+        "name": "Ոսկե ցլիկ"
+    },
+    {
+        "film": "./films/inchueaxmkumgety.jpg",
+        "name": "Ինչու՞ է աղմկում գետը"
+    },
+    {
+        "film": "./films/davitbek.jpg",
+        "name": "Դավիթ Բեկ"
+    },
+    {
+        "film": "./films/pepo.jpg",
+        "name": "Պեպո"
+    },
+    {
+        "film": "./films/hovazadzorigerinery.jpg",
+        "name": "Հովազաձորի գերիները"
+    },
+    {
+        "film": "./films/ashnanarev.jpg",
+        "name": "Աշնան արև"
+    },
+    {
+        "film": "./films/umejptumkyanqy.jpg",
+        "name": "Ու՞մ է ժպտում կյանքը"
+    },
+    {
+        "film": "./films/arajinsiroergy.jpg",
+        "name": "Առաջին սիրո երգը"
+    },
 ]
