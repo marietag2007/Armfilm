@@ -128,4 +128,36 @@ const films = [
         "film": "./films/arajinsiroergy.jpg",
         "name": "Առաջին սիրո երգը"
     },
+    {
+        "film": "./films/xachmeruk.jpg",
+        "name": "Խաչմերուկ"
+    },
+    {
+        "film": "./films/vortexeirmardastco.jpg",
+        "name": "Որտե՞ղ էիր մարդ Աստծո"
+    },
+    {
+        "film": "./films/mardnolimposic.jpg",
+        "name": "Մարդն Օլիմպոսից"
+    },
+    {
+        "film": "./films/dustry.jpg",
+        "name": "Դուստրը"
+    },
+    {
+        "film": "./films/xaspush.jpg",
+        "name": "Խասփուշ"
+    },
+    {
+        "film": "./films/shorevshorshor.jpg",
+        "name": "Շոր և Շորշոր"
+    },
+    {
+        "film": "./films/zare.jpg",
+        "name": "Զարե"
+    },
+    {
+        "film": "./films/xuly.jpg",
+        "name": "Զուլը"
+    },
 ]
