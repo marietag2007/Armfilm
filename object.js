@@ -2,7 +2,6 @@ const films = [
     {
         "film": "./films/thumbnail_DETAIL_TABLET.jpg",
         "name": "Մեր մանկության տանգոն"
-
     },
     {
         "film": "./films/01-99.jpg",
@@ -53,12 +52,12 @@ const films = [
         "name": "Քաոս"
     },
     {
-        "film": "./films/spanvacaxavni.jpg",
+        "film": "./films/spanvatsaxavni.jpg",
         "name": "Սպանված աղավնի"
     },
     {
         "film": "./films/trichqandundivrayov.jpg",
-        "name": "Թռիչք անդւնդի վրայով"
+        "name": "Թռիչք անդունդի վրայով"
     },
     {
         "film": "./films/tteni.jpg",
@@ -77,7 +76,7 @@ const films = [
         "name": "Խոշոր շահում"
     },
     {
-        "film": "./films/yerjankutyanmexanikan.jpg",
+        "film": "./films/yerjankutyanmexanika.jpg",
         "name": "Երջանկության մեխանիկա"
     },
     {
@@ -141,10 +140,6 @@ const films = [
         "name": "Մարդն Օլիմպոսից"
     },
     {
-        "film": "./films/dustry.jpg",
-        "name": "Դուստրը"
-    },
-    {
         "film": "./films/xaspush.jpg",
         "name": "Խասփուշ"
     },
@@ -158,6 +153,50 @@ const films = [
     },
     {
         "film": "./films/xuly.jpg",
-        "name": "Զուլը"
+        "name":"Ղուլը"
+    },
+    {
+        "film": "./films/charvogi.jpg",
+        "name": "Չար ոգի"
+    },
+    {
+        "film": "./films/zamalu.jpg",
+        "name": "Զամալու"
+    },
+    {
+        "film": "./films/erevanjan.jpg",
+        "name": "Երևան ջան"
+    },
+    {
+        "film": "./films/uraxavtobus.jpg",
+        "name": "Ուրախ ավտոբուս"
+    },
+    {
+        "film": "./films/tjvjik.jpg",
+        "name": "Տժվժիկ"
+    },
+    {
+        "film": "./films/chermakanurjner.jpg",
+        "name": "/Ճերմակ անուրջներ"
+    },
+    {
+        "film": "./films/terterinuxty.jpg",
+        "name": "Տերտերին ուխտը"
+    },
+    {
+        "film": "./films/xatabala.jpg",
+        "name": "Խաթաբալա"
+    },
+    {
+        "film": "./films/xndzoriaygin.jpg",
+        "name": "Խնձորի այգին"
+    },
+    {
+        "film": "./films/chanaparhdepisasuncidavit.jpg",
+        "name": "Ճանապարհ դեպի Սասունցի Դավիթ"
+    },
+    {
+        "film": "./films/qochari.jpg",
+        "name": "Քոչարի"
     },
 ]

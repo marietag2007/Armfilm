@@ -1,31 +1,31 @@
 let correct;
 let seconds = 60
-let correctAnswer = 0
-let incorrectAnswer = 0
+let correctAnswer = 0;
+let incorrectAnswer = 0;
 function getElement(id) {
     return document.getElementById(id);
 }
 function getRandomFilm() {
-    return films[Math.floor(Math.random()*(films.length - 1))]
+    return films[Math.floor(Math.random() * (films.length - 1))]
 }
 
 function main() {
     let options = [];
-    const max0ptions = 3;
-    while (options.length < max0ptions) {
-        let film = getRandomFilm();
-        if (options.indexOf(film) === -1) {
-            options.push(film);
-        }
+    const maxOptions = 3;
+    while (options.length < maxOptions) {
+      let coun = getRandomFilm();
+      if (options.indexOf(coun) === -1) {
+        options.push(coun);
+      }
     }
     for (let i = 0; i < options.length; i++) {
-        getElement(`option${i + 1}label`).innerHTML = options[i].name;
-        getElement(`option${i + 1}label`).value = options[i].name;
-        getElement(`option${i + 1}label`).checked = false;
+      getElement(`option${i + 1}label`).innerHTML = options[i].name;
+      getElement(`option${i + 1}input`).value = options[i].name;
+      getElement(`option${i + 1}input`).checked = false;
     }
-    correct = options[Math.round(Math.random() * (options.length - 1))]
+    correct = options[Math.round(Math.random() * (options.length - 1))];
     getElement("film").src = correct.film;
-}
+  }
 
 function timer() {
     setTimeout(finish, seconds * 1000);
@@ -61,7 +61,10 @@ function check() {
 }
 function finish() {
     clearInterval(checkInterval);
-    let percentage = (correctAnswer / (correctAnswer + incorrectAnswer)) * 100;
+    getElement("alert").style.display = "block";
+    getElement("card").style.display = "none";
+    getElement("alertscore").innerHTML = correctAnswer;
+    let percentage = Math.round((correctAnswer / (correctAnswer + incorrectAnswer)) * 100);
     if (isNaN(percentage)) {
         resultForAnswers = 100;
     } else {
@@ -69,14 +72,16 @@ function finish() {
             resultForAnswers = "Դուք ցուցաբերել եք լավ արդյունք"
         } else if (percentage >= 95) {
             resultForAnswers = "Դուք ցուցաբերել եք գերազանց արդյունք"
+        } else if (percentage <=75) {
+            resultForAnswers = "Դուք ցուցաբերել եք ցածր արդյունք"
         }
     }
     getElement('alertaccuracy').innerHTML = ` Քո արդյունքն է ${percentage}%`;
 }
 
-// function refresh() {
-//     location = location;
-// }
+function refresh() {
+     location = location;
+}
 
 let checkInterval = setInterval(check, 1000);
 main();
