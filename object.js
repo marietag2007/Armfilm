@@ -177,7 +177,7 @@ const films = [
     },
     {
         "film": "./films/chermakanurjner.jpg",
-        "name": "/Ճերմակ անուրջներ"
+        "name": "Ճերմակ անուրջներ"
     },
     {
         "film": "./films/terterinuxty.jpg",
